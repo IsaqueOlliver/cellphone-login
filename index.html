@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 
-<html lang="pt-br">
+<html>
 <head>
-	<title>Qual meu email do Classroom?</title>
+	<title>Cellphone login</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </head>
 <body>
-	<div class="power-btn"></div>
-	<div class="bord">
-			<div class="container">
+
+	<div class="buttons-sec">
+		<div class="power-btn"></div>
+		<div class="sounddown-btn"></div>
+		<div class="soundup-btn"></div>
+	</div>
+
+	<div class="container">
+			<div class="touch">
+				<h1>Welcome.</h1>
+
+				<p>Select your language.</p>
 				
+				<img src="./img/eua.png" alt="EUA" class="lang" onclick="setLang('us')">
+				<img src="./img/brazil.png" alt="BR" class="lang" onclick="setLang('br')">
+			
+				<button class="nxt-btn">Next</button>
 			</div>
 	</div>
+
+	<script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
