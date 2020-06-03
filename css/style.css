@@ -34,23 +34,28 @@ body {
 }
 
 .touch h1 {
-	margin-left: 65px;
+	margin-left: 23%;
 	margin-top: 50px;
 }
 
 .touch img {
 	width: 30%;
 	margin-top: 50px;
-	margin-left: 40px;
+	margin-left: 13%;
 }
 
 .touch p {
-	margin-left: 70px;
+	margin-left: 23%;
 	margin-top: 50px;
 }
 
+.touch input {
+	margin-left: 23%;
+	margin-right: 20px;
+}
+
 .nxt-btn {
-	margin-left: 80px;
+	margin-left: 25%;
 	margin-top: 100px;
 	width: 50%;
 	height: 10%;
